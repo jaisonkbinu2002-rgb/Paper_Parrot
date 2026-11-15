@@ -367,7 +367,7 @@ fun CompleteOrEditProfileScreen(
         contract = ActivityResultContracts.StartIntentSenderForResult()
     ) { result ->
         try {
-            val hintedPhone = Identity.getSignInClient(context).getPhoneNumberFromIntent(result.data)
+            val hintedPhone = Identity.getSignInClient(context as android.app.Activity).getPhoneNumberFromIntent(result.data)
             if (!hintedPhone.isNullOrBlank()) {
                 phone = hintedPhone
             }
@@ -376,7 +376,7 @@ fun CompleteOrEditProfileScreen(
 
     val triggerPhoneHint = {
         val request = GetPhoneNumberHintIntentRequest.builder().build()
-        Identity.getSignInClient(context)
+        Identity.getSignInClient(context as android.app.Activity)
             .getPhoneNumberHintIntent(request)
             .addOnSuccessListener { pendingIntent ->
                 phoneHintLauncher.launch(IntentSenderRequest.Builder(pendingIntent).build())
