@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "468438062839",
+    "project_id": "paper-parrot-3b9c7",
+    "storage_bucket": "paper-parrot-3b9c7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468438062839:android:1e20fc5890fcc6ef2965f2",
+        "android_client_info": {
+          "package_name": "com.genzcodeworks.paperparrot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468438062839-sdhhfmvaqpba1q71r1s5pr9b4nkrk5eg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.genzcodeworks.paperparrot",
+            "certificate_hash": "778ae17612eda8e37708401e798213c10b8bbde3"
+          }
+        },
+        {
+          "client_id": "468438062839-agtb55kb4nar8cs6vn33pi5h8qrsgkj7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIexH3tMYEZeF1wfXCwGE5Ym4PAPCWrHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468438062839-agtb55kb4nar8cs6vn33pi5h8qrsgkj7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
